@@ -1,0 +1,105 @@
+/* Variables de color y fuentes retro */
+:root {
+    --coral: #d97b73;
+    --red: #e23b4e;
+    --pink-bg: #fce4ec;
+    --window-bg: #fff0f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--pink-bg);
+    /* Fondo de corazoncitos o patrones si deseas añadirlo luego */
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+/* Estructura de la Ventana Pop-up */
+.window {
+    border: 5px solid var(--coral);
+    border-radius: 12px;
+    width: 350px;
+    background-color: var(--window-bg);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Barra de título de la ventana */
+.titlebar {
+    background-color: var(--coral);
+    color: white;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.window-controls span {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Contenido interno */
+.window-content {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgba(217, 123, 115, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(217, 123, 115, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px; /* Efecto cuadrícula cute */
+}
+
+h1 {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid var(--coral);
+    border-radius: 8px;
+    background-color: white;
+    color: var(--coral);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+/* Busca esta sección en tu archivo style.css */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid var(--coral);
+    border-radius: 8px;
+    background-color: white;
+    color: var(--coral);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+
+    /* --- ESTO ES LO QUE DEBES AÑADIR --- */
+    width: 80px;        /* Fijamos un ancho específico (puedes ajustarlo) */
+    text-align: center; /* Asegura que el texto esté centrado en ese ancho */
+    /* ---------------------------------- */
+}
