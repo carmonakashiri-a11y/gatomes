@@ -104,3 +104,7 @@ button {
     text-align: center; /* Asegura que el texto esté centrado en ese ancho */
     /* ---------------------------------- */
 }
+/* Fuerza al botón a desaparecer por completo */
+.ocultar {
+    display: none !important;
+}
