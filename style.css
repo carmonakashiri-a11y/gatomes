@@ -22,7 +22,7 @@ body {
 .window {
     border: 5px solid var(--coral);
     border-radius: 12px;
-    width: 65%;
+    width: 1050px;
     background-color: var(--window-bg);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
 }
 
 .window-controls span {
@@ -46,7 +46,7 @@ body {
 
 /* Contenido interno */
 .window-content {
-    padding: 55%;
+    padding: 65px;
     text-align: center;
     background-image: linear-gradient(rgba(217, 123, 115, 0.1) 1px, transparent 1px),
                       linear-gradient(90deg, rgba(217, 123, 115, 0.1) 1px, transparent 1px);
@@ -54,14 +54,14 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 65px;
     color: #4a4a4a;
     margin-bottom: 15px;
 }
 
 .image-container img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 20px;
 }
 
