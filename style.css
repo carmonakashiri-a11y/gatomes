@@ -47,7 +47,7 @@ body {
 /* Contenido interno */
 .window-content {
     padding: 95px;
-    height: 1500px;
+    height:900px;
     text-align: center;
     background-image: linear-gradient(rgba(217, 123, 115, 0.1) 1px, transparent 1px),
                       linear-gradient(90deg, rgba(217, 123, 115, 0.1) 1px, transparent 1px);
@@ -61,8 +61,8 @@ h1 {
 }
 
 .image-container img {
-    width: 280px;
-    height: 280px;
+    width: 380px;
+    height: 380px;
     margin-bottom: 20px;
 }
 
@@ -71,13 +71,13 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 30px;
-    height: 80px;
+    height: 100px;
     position: relative;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 10px;
+    font-size: 50px;
     font-weight: bold;
     border: 3px solid var(--coral);
     border-radius: 8px;
@@ -90,7 +90,7 @@ button {
 /* Busca esta sección en tu archivo style.css */
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: bold;
     border: 3px solid var(--coral);
     border-radius: 8px;
@@ -100,7 +100,7 @@ button {
     transition: transform 0.1s ease;
 
     /* --- ESTO ES LO QUE DEBES AÑADIR --- */
-    width: 90px;        /* Fijamos un ancho específico (puedes ajustarlo) */
+    width: 100px;        /* Fijamos un ancho específico (puedes ajustarlo) */
     text-align: center; /* Asegura que el texto esté centrado en ese ancho */
     /* ---------------------------------- */
 }
