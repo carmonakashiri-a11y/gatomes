@@ -22,7 +22,7 @@ body {
 .window {
     border: 5px solid var(--coral);
     border-radius: 12px;
-    width: 1050px;
+    width: 1000px;
     background-color: var(--window-bg);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -46,7 +46,8 @@ body {
 
 /* Contenido interno */
 .window-content {
-    padding: 65px;
+    padding: 95px;
+    height: 1500px;
     text-align: center;
     background-image: linear-gradient(rgba(217, 123, 115, 0.1) 1px, transparent 1px),
                       linear-gradient(90deg, rgba(217, 123, 115, 0.1) 1px, transparent 1px);
@@ -60,8 +61,8 @@ h1 {
 }
 
 .image-container img {
-    width: 100px;
-    height: 100px;
+    width: 280px;
+    height: 280px;
     margin-bottom: 20px;
 }
 
@@ -69,8 +70,8 @@ h1 {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    height: 50px;
+    gap: 30px;
+    height: 80px;
     position: relative;
 }
 
@@ -99,7 +100,7 @@ button {
     transition: transform 0.1s ease;
 
     /* --- ESTO ES LO QUE DEBES AÑADIR --- */
-    width: 80px;        /* Fijamos un ancho específico (puedes ajustarlo) */
+    width: 90px;        /* Fijamos un ancho específico (puedes ajustarlo) */
     text-align: center; /* Asegura que el texto esté centrado en ese ancho */
     /* ---------------------------------- */
 }
