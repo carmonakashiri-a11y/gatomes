@@ -47,7 +47,7 @@ body {
 /* Contenido interno */
 .window-content {
     padding: 95px;
-    height:900px;
+    height:700px;
     text-align: center;
     background-image: linear-gradient(rgba(217, 123, 115, 0.1) 1px, transparent 1px),
                       linear-gradient(90deg, rgba(217, 123, 115, 0.1) 1px, transparent 1px);
