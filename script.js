@@ -22,15 +22,24 @@ noBtn.addEventListener('touchstart', (e) => {
     dodge();
 });
 
-// Evento para el botón SÍ
+// Busca esta sección en tu script.js y reemplázala:
 yesBtn.addEventListener('click', () => {
-    title.textContent = '¡Yeeeiii! ¡Sabía que dirías que sí! ❤️';
+    title.textContent = '¡Yippeee! ¡Sabía que dirías que sí! ❤️';
     
-    // Opcional: Cambiar la imagen del gato a uno más feliz si tienes el link
+    // Cambiamos la imagen del gato a uno más feliz
     catImg.src = "https://media.tenor.com/V9_vX77g77EAAAAi/cute-cat.gif"; 
     
-    // Ocultamos el botón "NO" para celebrar
-    noBtn.style.display = 'none';
+    /* --- AQUÍ ESTÁ EL CAMBIO --- */
+    // En lugar de .style.display, le agregamos la clase que creamos en CSS
+    noBtn.classList.add('ocultar'); 
+    /* ---------------------------- */
+
+    // Centramos el botón SÍ para que se vea bonito el final
+    yesBtn.style.position = 'relative';
+    yesBtn.style.left = '0';
+    yesBtn.style.top = '0';
     yesBtn.style.transform = 'scale(1.3)';
-    yesBtn.style.left = 'calc(50% - 40px)'; // Lo centramos
+    
+    // Opcional: si metiste los botones en un contenedor, esto ayuda a centrarlo
+    document.querySelector('.buttons').style.justifyContent = 'center';
 });
